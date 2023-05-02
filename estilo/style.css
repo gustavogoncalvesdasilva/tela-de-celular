@@ -42,3 +42,25 @@ iframe {
     top: 55px;
     left: 15.5px;
 }
+
+#rs {
+    text-align: center;
+}
+
+section#rs img {
+    background-color: aqua;
+    width: 50px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.500);
+    transition: 0.7s;
+    padding: auto;
+    
+}
+
+section#rs img:hover {
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px white;
+    transform: translate(0px, -5px);
+}
